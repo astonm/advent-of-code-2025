@@ -1,0 +1,17 @@
+[project]
+name = "advent-code-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.3.1",
+    "more-itertools>=10.8.0",
+    "parse>=1.20.2",
+    "python-youtube>=0.9.8",
+    "requests>=2.32.5",
+    "spacy>=3.8.11",
+    "tqdm>=4.67.1",
+    "unidecode>=1.4.0",
+    "varname>=0.15.0",
+]
