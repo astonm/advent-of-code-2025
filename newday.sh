@@ -13,6 +13,6 @@ fi
 touch "$DAY/input.txt"
 touch "$DAY/ex.txt"
 
-pipenv run python aoc.py get-input $1 > "$DAY/input.txt"
+uv run python aoc.py get-input $1 > "$DAY/input.txt"
 
 echo "./run.sh $DAY part1 ex"
