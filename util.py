@@ -5,7 +5,7 @@ import time
 from collections import *
 from collections.abc import *
 from dataclasses import *
-from typing import Type
+from typing import Type, NamedTuple
 from functools import *
 from itertools import *
 from more_itertools import *
